@@ -12,6 +12,7 @@ public class HelloApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(HelloApplication.class, args);
 		//System.out.println("Hello World!");
+
 		SpringApplication app = new SpringApplication(HelloApplication.class);
 		app.setBannerMode(Mode.OFF);
 		app.run(args);
